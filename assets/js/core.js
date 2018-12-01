@@ -1162,7 +1162,7 @@ NextPost.Renew = function()
                     });
 
                     $("body").removeClass("onprogress");
-
+                }
             }
         });
 	}
