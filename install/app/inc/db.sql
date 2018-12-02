@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `TABLE_ORDERS` (
   `total` double(10,2) NOT NULL,
   `paid` double(10,2) NOT NULL,
   `currency` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
-  `api_key` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `api_key` varchar(38) COLLATE utf8_unicode_ci NOT NULL,
   `date` datetime NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
